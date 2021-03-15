@@ -1,11 +1,15 @@
-.headr { height:fit-content;
-max-width:1368px;
- } 
- .navbar{ padding:20px;
-      margin-left: 4em;
-margin-right:4em;}
+.headr{ display:grid;
+    grid-template-columns:5% 5% 80% 5% 5%;
+    height:fit-content;
+max-width:1350px;
+    }
+    .navbar { padding-left:4px; color:black}
 #goog { width:272; height:92;
 display:block;
 margin-left: auto; margin-right:auto; margin-top:40px;}
-a:hover { text-shadow:2px 2px 8px #d19999 ;}
+a:hover {color:blue; text-shadow:8px 8px 10px #d19999 ;}
 .intput{ border-radius: 20px;}
+#Help,#Store,#Gmail,#Images {font-size: 20px;}
+.html{max-width: 1368px;}
+.searchfunc {display:grid;
+grid-template-columns: 20% 60% 20%;}
