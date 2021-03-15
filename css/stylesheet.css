@@ -1,0 +1,11 @@
+.headr { height:fit-content;
+max-width:1368px;
+ } 
+ .navbar{ padding:20px;
+      margin-left: 4em;
+margin-right:4em;}
+#goog { width:272; height:92;
+display:block;
+margin-left: auto; margin-right:auto; margin-top:40px;}
+a:hover { text-shadow:2px 2px 8px #d19999 ;}
+.intput{ border-radius: 20px;}
