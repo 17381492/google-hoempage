@@ -1,20 +1,28 @@
 .searchfunc {display:grid;
     grid-template-rows: 30px;
     grid-template-columns: 2fr 1fr 1fr  2fr;}
-    .headr{ display:grid;
-    grid-template-columns:5% 5% 80% 5% 5%;
-    height:fit-content;
-max-width:1350px;
-    } 
-    .navbar { padding-left:4px; color:black}
-#goog { width:272; height:92;
+ .ul1{
+     list-style-type: none;
+        margin:0px; padding:0px; display:grid;
+        grid-template-columns:5% 5% 80% 5% 5%;
+    max-width:1350px;
+}
+ .li1 a{color:black;}
+#goog { 
+width:272; 
+height:92;
 display:block;
-margin-left: auto; margin-right:auto; margin-top:40px;}
-a:hover {color:blue; text-shadow:8px 8px 10px #d19999 ;}
-
-#Help,#Store,#Gmail,#Images {font-size: 18px;}
+margin-left: auto; 
+margin-right:auto; margin-top:40px;
+}
+a:hover {
+    color:blue;
+text-shadow:8px 8px 10px #d19999 ;
+}
+.ul2 {list-style-type: none;
+    margin:0px; padding:0px; display:grid;
+grid-template-columns: 1fr 1fr 1fr 4fr 1fr 1fr 1fr;}
 .b1{max-width: 1368px; height:700px;}
-#Images {padding-right: 20px;}
-.footer{margin-top:200px; height:60px; width:100%; border-style: solid;
-     border-width:1px;border-color:lightgray; 
+
+.footer{position:fixed; bottom:0; margin-top:200px; height:60px; width:100%; 
      background-color:rgba(240, 236, 223, 0.836);}
